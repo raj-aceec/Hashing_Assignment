@@ -1,0 +1,26 @@
+Problem Statement:
+Implement a hash map (dictionary) in C++ and Java that supports insert, delete, and get operations. Ensure that the hash map handles collisions using separate chaining.
+
+Constraints:
+
+The keys will be non-negative integers.
+The values can be any integers.
+The initial size of the hash map will be provided during its creation.
+Handle collisions using separate chaining (linked list).
+The number of operations will be between 1 and 10^4.
+Input:
+
+For insert: two integers key and value.
+For delete: one integer key.
+For get: one integer key.
+Output:
+
+For insert and delete: No output required.
+For get: An integer value associated with the key, or -1 if the key does not exist.
+Examples:
+
+Initialization: HashMap map = new HashMap(10)
+Operations:
+insert(1, 10)
+insert(2, 20)
+get(1) returns 10

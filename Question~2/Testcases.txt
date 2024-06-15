@@ -1,0 +1,58 @@
+Test Cases for Cpp:
+    // Test Case 1
+    HashMap map1(10);
+    map1.insert(1, 10);
+    map1.insert(2, 20);
+    std::cout << map1.get(1) << std::endl; // Expected output: 10
+    map1.remove(2);
+    std::cout << map1.get(2) << std::endl; // Expected output: -1
+
+    // Test Case 2
+    HashMap map2(5);
+    map2.insert(3, 30);
+    map2.insert(8, 80);
+    map2.insert(13, 130);
+    std::cout << map2.get(3) << std::endl; // Expected output: 30
+    std::cout << map2.get(8) << std::endl; // Expected output: 80
+    std::cout << map2.get(13) << std::endl; // Expected output: 130
+    map2.remove(8);
+    std::cout << map2.get(8) << std::endl; // Expected output: -1
+
+    // Test Case 3
+    HashMap map3(7);
+    map3.insert(14, 140);
+    map3.insert(21, 210);
+    map3.insert(28, 280);
+    std::cout << map3.get(14) << std::endl; // Expected output: 140
+    std::cout << map3.get(21) << std::endl; // Expected output: 210
+    std::cout << map3.get(28) << std::endl; // Expected output: 280
+    map3.remove(21);
+    std::cout << map3.get(21) << std::endl; // Expected output: -1
+
+Test Cases for Javascript:
+    const map1 = new HashMap(10);
+    map1.insert(1, 10);
+    map1.insert(2, 20);
+    console.log(map1.get(1)); // Expected output: 10
+    map1.remove(2);
+    console.log(map1.get(2)); // Expected output: -1
+
+    const map2 = new HashMap(5);
+    map2.insert(3, 30);
+    map2.insert(8, 80);
+    map2.insert(13, 130);
+    console.log(map2.get(3)); // Expected output: 30
+    console.log(map2.get(8)); // Expected output: 80
+    console.log(map2.get(13)); // Expected output: 130
+    map2.remove(8);
+    console.log(map2.get(8)); // Expected output: -1
+
+    const map3 = new HashMap(7);
+    map3.insert(14, 140);
+    map3.insert(21, 210);
+    map3.insert(28, 280);
+    console.log(map3.get(14)); // Expected output: 140
+    console.log(map3.get(21)); // Expected output: 210
+    console.log(map3.get(28)); // Expected output: 280
+    map3.remove(21);
+    console.log(map3.get(21)); // Expected output: -1

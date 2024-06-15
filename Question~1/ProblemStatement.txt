@@ -1,0 +1,24 @@
+Question 1: Anagram Checker
+Problem Statement:
+Write a function to check if two strings are anagrams of each other using hashing. The function should return true if the strings are anagrams and false otherwise. Consider case sensitivity and ignore spaces.
+
+Constraints:
+
+The strings can contain only alphabetic characters and spaces.
+The strings are case-insensitive (e.g., "A" is considered the same as "a").
+Ignore spaces while checking for anagrams.
+The length of each string will be between 1 and 1000 characters.
+Input:
+
+Two strings str1 and str2.
+Output:
+
+A boolean value (true or false).
+Examples:
+
+Input: str1 = "listen", str2 = "silent"
+Output: true
+Input: str1 = "triangle", str2 = "integral"
+Output: true
+Input: str1 = "apple", str2 = "pale"
+Output: false

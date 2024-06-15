@@ -1,0 +1,28 @@
+Test Cases in Cpp:
+    std::cout << areAnagrams("listen", "silent") << std::endl; // Expected output: 1 (true)
+    std::cout << areAnagrams("triangle", "integral") << std::endl; // Expected output: 1 (true)
+    std::cout << areAnagrams("apple", "pale") << std::endl; // Expected output: 0 (false)
+    std::cout << areAnagrams("Dormitory", "Dirty room") << std::endl; // Expected output: 1 (true)
+    std::cout << areAnagrams("Hello", "Olelh") << std::endl; // Expected output: 0 (false)
+    std::cout << areAnagrams("Astronomer", "Moon starer") << std::endl; // Expected output: 1 (true)
+    std::cout << areAnagrams("School master", "The classroom") << std::endl; // Expected output: 0 (false)
+    std::cout << areAnagrams("Conversation", "Voices rant on") << std::endl; // Expected output: 1 (true)
+
+Test Cases in Java:
+    System.out.println(areAnagrams("listen", "silent")); // Expected output: true
+    System.out.println(areAnagrams("triangle", "integral")); // Expected output: true
+    System.out.println(areAnagrams("apple", "pale")); // Expected output: false
+    System.out.println(areAnagrams("Dormitory", "Dirty room")); // Expected output: true
+    System.out.println(areAnagrams("Hello", "Olelh")); // Expected output: false
+    System.out.println(areAnagrams("Astronomer", "Moon starer")); // Expected output: true
+    
+Test Cases in Javascript:
+    console.log(areAnagrams("listen", "silent")); // Expected output: true
+    console.log(areAnagrams("triangle", "integral")); // Expected output: true
+    console.log(areAnagrams("apple", "pale")); // Expected output: false
+    console.log(areAnagrams("Dormitory", "Dirty room")); // Expected output: true
+    console.log(areAnagrams("Hello", "Olelh")); // Expected output: false
+    console.log(areAnagrams("Astronomer", "Moon starer")); // Expected output: true
+    console.log(areAnagrams("School master", "The classroom")); // Expected output: false
+    console.log(areAnagrams("Conversation", "Voices rant on")); // Expected output: true
+
